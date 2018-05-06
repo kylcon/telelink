@@ -1,3 +1,10 @@
-body {
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background: linear-gradient(141deg, #3d92f4 0%, #3d92f4 51%, #51b0ef 75%);
+}
+
+h2 {
+  text-color: white;
 }
