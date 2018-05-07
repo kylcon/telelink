@@ -3,6 +3,7 @@ body, .container {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   align-content: center;
 
   background: -moz-linear-gradient(16deg, #000000 0%, #6E6E6E 100%); /* ff3.6+ */
@@ -14,6 +15,8 @@ body, .container {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#6E6E6E',GradientType=1 ); /* ie6-9 */
   }
 
-h2 {
+.row {}
+
+h3 {
   color: white;
 }
